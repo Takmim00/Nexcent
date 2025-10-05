@@ -147,4 +147,26 @@ nav {
   align-items: center;
 }
 
+#client .container {
+  padding: 40px 0;
+}
+#client .row {
+  justify-content: space-between;
+  padding-top: 25px;
+}
 
+.clientText h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  color: var(--neutral-d-grey);
+}
+
+.clientText p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--neutral-grey);
+}

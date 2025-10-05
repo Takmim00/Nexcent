@@ -152,7 +152,7 @@ nav {
 }
 #client .row {
   justify-content: space-between;
-  padding-top: 25px;
+  padding: 25px 0;
 }
 
 .clientText h2 {
@@ -170,3 +170,54 @@ nav {
   text-align: center;
   color: var(--neutral-grey);
 }
+/*  community  */
+
+#community .container {
+  padding-bottom: 40px;
+}
+#community .row {
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.communityTxt h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--neutral-d-grey);
+}
+.communityTxt p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: var(--neutral-grey);
+}
+.comCard {
+  text-align: center;
+  border-radius: 8px;
+  padding: 24px 32px;
+  width: 299px;
+  height: 260px;
+  box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.2);
+  background: var(--neutral-white);
+}
+
+.comCard h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--neutral-d-grey);
+  margin-top: 8px;
+}
+
+.comCard p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: var(--neutral-grey-blue);
+  margin: 8px 0;
+}
+

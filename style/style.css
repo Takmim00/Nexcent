@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --neutral-white: #fff;
   --neutral-silver: #f5f7fa;
@@ -23,9 +25,84 @@
   --action-success: #2e7d31;
   --action-error: #e53835;
   --action-warning: #fbc02d;
+  --font-family: "Inter", sans-serif;
+  --second-family: "Montserrat", sans-serif;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+body {
+  font-family: var(--font-family);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 14px 32px;
+  background-color: var(--brand-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--neutral-white);
+  margin-top: 32px;
+  display: inline-block;
+}
+
+/* Nav style */
+
+nav {
+  padding: 20px 0;
+}
+.nav-menu li {
+  display: inline-block;
+  padding: 0 25px;
+}
+.nav-menu li a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #18191f;
+}
+
+.nav-btn .sign-in{
+padding: 10px 20px;
+font-weight: 500;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: var(--brand-primary);
+}
+.nav-btn .sign-up{
+padding: 10px 20px;
+margin-top: 0;
 }

@@ -221,3 +221,31 @@ nav {
   margin: 8px 0;
 }
 
+/* unseen */
+#unseen .container {
+  padding-bottom: 40px;
+}
+
+.unseen-text {
+  width: 50%;
+}
+
+.unseenImg {
+  width: 50%;
+}
+
+.unseen-text h4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  color: var(--neutral-d-grey);
+}
+
+.unseen-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--neutral-grey);
+  margin-top: 8px;
+  width: 602px;
+}

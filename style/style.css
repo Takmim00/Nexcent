@@ -387,3 +387,40 @@ nav {
   line-height: 140%;
   color: var(--brand-primary);
 }
+
+/* Caring star */
+#caring .container {
+  padding: 40px 0;
+}
+
+#caring .row {
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.carCard {
+  border-radius: 8px;
+  padding: 16px;
+  width: 317px;
+  height: 176px;
+  box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.4);
+  background: var(--neutral-silver);
+}
+
+.carCard p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--neutral-grey);
+  padding: 4px;
+}
+.carCard a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--brand-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}

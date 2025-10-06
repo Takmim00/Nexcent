@@ -306,3 +306,37 @@ nav {
   line-height: 150%;
   color: var(--neutral-grey);
 }
+
+/* design start */
+#design .container {
+  padding: 40px 0;
+}
+
+.design-text {
+  width: 50%;
+}
+
+.designImg {
+  width: 50%;
+}
+
+.design-text h4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 122%;
+  color: var(--neutral-d-grey);
+  width: 602px;
+}
+
+.design-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--neutral-grey);
+  margin-top: 8px;
+  width: 602px;
+}
+
+.designImg img{
+  padding-left: 80px;
+}

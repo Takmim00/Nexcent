@@ -337,6 +337,53 @@ nav {
   width: 602px;
 }
 
-.designImg img{
+.designImg img {
   padding-left: 80px;
+}
+/* Tim Smith start */
+#timSmith {
+  background: var(--neutral-silver);
+}
+
+#timSmith .container {
+  padding: 40px 0;
+}
+
+.timSmith-text {
+  width: 60%;
+}
+
+.timSmithImg {
+  width: 40%;
+}
+.timSmithImg img {
+  padding-left: 80px;
+}
+.timSmith-text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--neutral-grey);
+}
+.timSmith-text span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--neutral-l-grey);
+}
+.timSmith-text h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--brand-primary);
+  margin: 8px 0;
+}
+.timSmith-text .row {
+  margin-top: 16px;
+}
+.timSmith-text .row a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--brand-primary);
 }

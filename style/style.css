@@ -431,7 +431,6 @@ nav {
   margin-top: 8px;
 }
 
-
 /* demo star */
 #demo {
   background: var(--neutral-silver);
@@ -447,4 +446,99 @@ nav {
   line-height: 160%;
   text-align: center;
   color: var(--neutral-black);
+}
+
+/* footer */
+
+#footer {
+  background-color: #263238;
+  color: #ddd;
+  padding: 40px 0;
+}
+
+
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.brand .logo {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.brand p {
+  font-size: 13px;
+  color: #bbb;
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  margin-top: 25px;
+}
+
+.social-icons a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.social-icons a img:hover {
+  opacity: 1;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  background-color: #37474f;
+  border-radius: 5px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.subscribe input {
+  background: none;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  width: 180px;
+  outline: none;
+}
+
+.subscribe input::placeholder {
+  color: #aaa;
+}
+
+.subscribe button {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
 }

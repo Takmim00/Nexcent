@@ -67,6 +67,9 @@ body {
 .btn {
   border-radius: 4px;
   padding: 14px 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--brand-primary);
   font-weight: 500;
   font-size: 16px;
@@ -75,6 +78,9 @@ body {
   color: var(--neutral-white);
   margin-top: 32px;
   display: inline-block;
+}
+.btn svg {
+  vertical-align: middle;
 }
 
 /* Nav style */
@@ -423,4 +429,22 @@ nav {
   justify-content: center;
   align-items: center;
   margin-top: 8px;
+}
+
+
+/* demo star */
+#demo {
+  background: var(--neutral-silver);
+}
+
+#demo .container {
+  padding: 40px 0;
+}
+
+.demoTxt {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--neutral-black);
 }

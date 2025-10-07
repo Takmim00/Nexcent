@@ -400,10 +400,13 @@ nav {
 }
 
 #caring .row {
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 30px;
 }
-.carCard {
+/* #caring .row img{
+  width: 368px;
+} */
+/* .carCard {
   border-radius: 8px;
   padding: 16px;
   width: 317px;
@@ -429,7 +432,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin-top: 8px;
-}
+} */
 
 /* demo star */
 #demo {

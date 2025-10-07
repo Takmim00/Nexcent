@@ -512,9 +512,7 @@ nav {
   transition: 0.3s;
 }
 
-.social-icons a img:hover {
-  opacity: 1;
-}
+
 
 .subscribe {
   display: flex;
